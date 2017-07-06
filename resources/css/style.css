@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');
+
+body {
+  font-size: 16px;
+  background-color: #f0f0f0;
+  font-family: "Droid Sans";
+  line-height: 1.3;
+}
+a {
+  text-decoration: none;
+  color: #3A7F69;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+}
+/*--header--*/
+.header-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+  height: 4rem;
+  box-shadow: 0px 2px 15px 1px grey;
+  position: fixed;
+  z-index: 15;
+}
+
+.logo {
+  display: inline-flex;
+  align-content: center;
+  padding-left: 1.5rem;
+}
+
+.logo p {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+}
+#colmar {
+  color: #3A7F69;
+}
+
+#academy {
+  color: #CBAA53;
+}
+.top-navigation {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.top-navigation ul {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-right: 1.5rem;
+}
+
+.top-navigation ul li {
+  margin-left: 1rem;
+  color: black;
+}
+.top-navigation ul li:hover {
+  color: #3A7F69;
+  transition: color 0.25s;
+}
+/*--END OF HEADER--*/
+
+.banner {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-img {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.banner-img img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1rem;
+}
+
+.banner-details {
+  width: 80%;
+  margin: 1rem 0;
+}
+
+.banner-content h1 {
+  color: #3A7F69;
+}
+.banner-content h2 {
+  font-size: 2rem;
+}
+#start-button {
+  margin-top: 2rem;
+  background-color: #3A7F69;
+  width: 75%;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.banner-details a {
+  font-size: 2rem;
+  color: white;
+}
+#start-button:hover,
+#start-button a:hover {
+  background-color: #CBAA53;
+  transition: background-color 0.2s;
+}
+/*----END OF BANNER----*/
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+}
+
+.headline {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.headline img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headline h1 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  color: #3A7F69;
+}
+
+.headline p {
+  color: #CBAA53;
+}
+
+#quote {
+  letter-spacing: 1px;
+  padding-bottom: 2rem;
+  color: black;
+  font-style: italic;
+}
+
+.sideline {
+  width: 40%;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.sideline-container {
+  display: flex;
+  align-content: center;
+  z-index: 5;
+}
+
+.sideline-container:hover {
+  box-shadow: 0px 2px 15px 1px grey;
+  transition: box-shadow 0.5s;
+}
+
+.sideline-container:nth-child(3n+0) {
+  background-color: #f0f0f0;
+  z-index: 0
+}
+
+.sideline-img {
+  width: 35%;
+  margin: 1rem;
+}
+
+.sideline-img img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.sideline-content {
+  width: 55%;
+  margin-top: 1rem;
+}
+
+.sideline-content h2{
+  font-weight: bold;
+}
+
+.sideline-content p {
+  padding: 1rem 0;
+}
+
+.sideline-content a {
+  font-weight: bold;
+}
+/*----END OF NEWS---*/
+.courses-container {
+  text-align: center;
+}
+
+.courses-container h1 {
+  padding: 2rem 0;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: auto;
+}
+
+.course {
+  width: 31%;
+  margin-bottom: 2rem;
+}
+.course:hover {
+  box-shadow: 0px 2px 15px 1px grey;
+  transition: box-shadow 0.5s;
+}
+
+.course-img img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.course-detail {
+  background-color: white;
+  margin-top: -4px;
+  text-align: left;
+  padding: 1rem 1.5rem 1.5rem 1rem;
+  min-height: 140px;
+}
+
+.course-detail h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+
+.course-detail p {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+/*---END OF COURSES--*/
+
+.thesis-container {
+
+   background-color: white;
+   padding-bottom: 2rem;
+}
+.title h1 {
+  padding-top : 2rem;
+  text-align: center;
+}
+
+.headline video {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#thesis-video h2 {
+  padding: 1.5rem 0;
+  text-align: left;
+  color: #3A7F69;
+  font-weight: bold;
+}
+/*--END OF THESIS----*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 3rem;
+  padding-top: 1rem;
+  font-size: 0.75rem;
+  background-color: white;
+  border-top: 1px solid #f0f0f0;
+}
+
+footer p {
+  padding-left: 1.5rem;
+}
+
+footer nav ul li {
+  display: inline;
+  padding-right: 1.5rem;
+}
