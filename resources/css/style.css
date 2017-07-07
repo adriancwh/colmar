@@ -165,7 +165,7 @@ h2 {
   transition: background-color 0.2s;
 }
 
-@media only screen and (max-width:960px) {
+@media only screen and (max-width:1080px) {
 /*--MOBILE VERSION BANNER--*/
   .banner {
     padding-top: 4rem;
